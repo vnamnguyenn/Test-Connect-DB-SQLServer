@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Connect DB SQLServer", "Test Connect DB SQLServer\Test Connect DB SQLServer.csproj", "{1EAB50C6-A7E6-4A79-96AD-6E70FBBD750D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EAB50C6-A7E6-4A79-96AD-6E70FBBD750D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAB50C6-A7E6-4A79-96AD-6E70FBBD750D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAB50C6-A7E6-4A79-96AD-6E70FBBD750D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAB50C6-A7E6-4A79-96AD-6E70FBBD750D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D5F84C3-32F5-4379-81EB-B92E47B44141}
+	EndGlobalSection
+EndGlobal
