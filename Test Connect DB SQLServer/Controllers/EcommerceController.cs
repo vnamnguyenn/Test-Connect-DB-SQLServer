@@ -6,10 +6,10 @@ namespace Test_Connect_DB_SQLServer.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class EcommerceController : ControllerBase
     {
         private readonly IConfiguration _config;
-        public WeatherForecastController(IConfiguration config)
+        public EcommerceController(IConfiguration config)
         {
             _config = config;
         }
@@ -18,8 +18,8 @@ namespace Test_Connect_DB_SQLServer.Controllers
         public async Task<ActionResult<List<Product>>> GetAll()
         {
             using var connection = new NpgsqlConnection(_config.GetConnectionString("DefaultConnection"));
-            var heroes = await connection.QueryAsync<Product>("select * from product");
-            return Ok(heroes);
+            var products = await connection.QueryAsync<Product>("select * from product");
+            return Ok(products);
         }
     }
 }
